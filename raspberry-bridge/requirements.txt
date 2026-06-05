@@ -1,0 +1,3 @@
+# Puente MQTT -> Firebase (Raspberry Pi). Python 3.9+
+paho-mqtt>=2.0.0
+firebase-admin>=6.5.0

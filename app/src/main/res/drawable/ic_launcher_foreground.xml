@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Frente del ícono adaptativo de Sira: la hoja "Spa" (Material) en blanco,
+     centrada dentro del lienzo de 108x108. El ícono original es de 24x24, así que
+     se escala (x2.3) y se desplaza para quedar dentro de la zona segura. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="2.3"
+        android:scaleY="2.3"
+        android:translateX="26.4"
+        android:translateY="24">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M8.55,12c-1.07,-0.71 -2.25,-1.27 -3.53,-1.61 1.28,0.34 2.46,0.9 3.53,1.61z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M18.98,10.39c-1.29,0.34 -2.49,0.91 -3.57,1.64 1.08,-0.73 2.28,-1.3 3.57,-1.64z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M11.01,9.68c1.07,0.59 1.95,1.27 2.99,2.13 0.92,-0.97 1.99,-1.74 3.13,-2.31C18.18,7.81 19.61,6.34 22,5c-5.33,0 -8.46,1.52 -9.99,3.19C10.48,6.52 7.35,5 2,5c2.39,1.34 3.82,2.81 4.87,4.5 1.14,0.57 2.21,1.34 3.13,2.31 1.04,-0.86 1.92,-1.54 2.99,-2.13z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M12,15.45C9.85,12.17 6.18,10 2,10c0,5.32 3.36,9.82 8.06,11.58 0.6,0.23 1.24,0.42 1.89,0.57 0.65,-0.15 1.29,-0.34 1.89,-0.57C18.64,19.82 22,15.32 22,10c-4.18,0 -7.85,2.17 -10,5.45z" />
+    </group>
+</vector>

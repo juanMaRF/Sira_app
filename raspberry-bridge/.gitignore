@@ -1,0 +1,13 @@
+# Nunca subas secretos al repositorio
+config.ini
+serviceAccountKey.json
+*.key
+*.crt
+*.pem
+*.csr
+*.srl
+
+# Entorno virtual de Python
+.venv/
+__pycache__/
+*.pyc

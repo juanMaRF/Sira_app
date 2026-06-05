@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(.\\\\gradlew.bat :app:compileDebugKotlin --console=plain -q)",
+      "Bash(python -m py_compile mqtt_firebase_bridge.py)",
+      "Bash(py -m py_compile mqtt_firebase_bridge.py)",
+      "PowerShell(.\\\\gradlew.bat :app:assembleDebug --console=plain -q)",
+      "Bash(python -c 'import math *)"
+    ]
+  }
+}

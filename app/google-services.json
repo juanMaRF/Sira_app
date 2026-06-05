@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "101085390356",
+    "project_id": "sira-18ad6",
+    "storage_bucket": "sira-18ad6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101085390356:android:20e6948646a1333373e901",
+        "android_client_info": {
+          "package_name": "com.example.sira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101085390356-9mm4ksqs6u4a3i2acold9vt26bppemla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sira",
+            "certificate_hash": "13c19fdd7685b1ffa4e600401358fe9c84904756"
+          }
+        },
+        {
+          "client_id": "101085390356-dvkui6600a1ec8p6he8hib9t56qnubtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhHQHL_jW9bf7w-vDOFfzah69jJ9UpNZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101085390356-dvkui6600a1ec8p6he8hib9t56qnubtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

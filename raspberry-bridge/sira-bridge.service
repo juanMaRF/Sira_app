@@ -1,0 +1,16 @@
+[Unit]
+Description=Sira - Puente MQTT a Firebase
+After=network-online.target mosquitto.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Ajusta User y las rutas si NO usas el usuario "pi" o instalaste en otra carpeta.
+User=pi
+WorkingDirectory=/home/pi/sira-bridge
+ExecStart=/home/pi/sira-bridge/.venv/bin/python /home/pi/sira-bridge/mqtt_firebase_bridge.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
